@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>HELLO ASP.NET MVC YALL</h1>
+        <ol>
+            @{
+                List<string> words = new List<string>();
+                words.Add("SUP");
+                words.Add("Pizza");
+                words.Add("Burgs");
+                words.Add("I lik stuf");
+
+                foreach(string w in words)
+                {
+                    <li>@w</li>
+                }
+            }
+        </ol>
+    </body>
+</html>
